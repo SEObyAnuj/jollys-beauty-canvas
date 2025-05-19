@@ -20,7 +20,7 @@ const Navbar = () => {
       isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
     }`}>
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
-        <a href="#" className="font-playfair text-2xl md:text-3xl font-bold text-rosegold">Jolly</a>
+        <a href="#" className="font-playfair text-2xl md:text-3xl font-bold text-rosegold"><img src=/lovable-uploads/fc085184-3cde-46de-abfe-f2ccb7b45b04.png</a>
         
         <div className="hidden md:flex items-center space-x-8">
           <a href="#about" className="font-montserrat text-sm hover:text-rosegold transition-colors">About</a>
