@@ -8,14 +8,14 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="lg:w-2/5">
-            <div className="relative">
-              <div className="absolute -top-5 -left-5 w-full h-full border-2 border-rosegold rounded-lg"></div>
+            <div className="relative group overflow-hidden">
+              <div className="absolute -top-5 -left-5 w-full h-full border-2 border-rosegold rounded-lg transition-all duration-500 group-hover:border-plum"></div>
               <img 
-                src="https://images.unsplash.com/photo-1721322800607-8c38375eef04" 
+                src="/lovable-uploads/dd5df8e8-c265-4efa-90fc-55471b1c7170.png" 
                 alt="Jolly - Makeup Artist" 
-                className="w-full rounded-lg shadow-xl relative z-10"
+                className="w-full rounded-lg shadow-xl relative z-10 transition-transform duration-700 ease-in-out group-hover:scale-105"
               />
-              <div className="absolute -bottom-5 -right-5 bg-rosegold text-white p-3 rounded-lg shadow-lg z-20 flex items-center">
+              <div className="absolute -bottom-5 -right-5 bg-rosegold text-white p-3 rounded-lg shadow-lg z-20 flex items-center transition-colors duration-500 group-hover:bg-plum">
                 <Heart className="mr-2" size={18} />
                 <span className="font-montserrat text-sm">Passionate About Beauty</span>
               </div>
@@ -38,11 +38,11 @@ const AboutSection = () => {
               </p>
               
               <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="bg-white p-4 rounded-lg shadow-sm text-center">
+                <div className="bg-white p-4 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow duration-300">
                   <h3 className="font-playfair text-2xl font-bold text-rosegold">4+</h3>
                   <p className="font-montserrat text-sm">Years Experience</p>
                 </div>
-                <div className="bg-white p-4 rounded-lg shadow-sm text-center">
+                <div className="bg-white p-4 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow duration-300">
                   <h3 className="font-playfair text-2xl font-bold text-rosegold">800+</h3>
                   <p className="font-montserrat text-sm">Happy Clients</p>
                 </div>

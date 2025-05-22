@@ -17,18 +17,20 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-md py-2' : 'bg-transparent py-4'
     }`}>
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
-        <a href="#" className="font-playfair text-2xl md:text-3xl font-bold text-rosegold"><img src=/lovable-uploads/fc085184-3cde-46de-abfe-f2ccb7b45b04.png</a>
+        <a href="#" className="font-playfair text-2xl md:text-3xl font-bold text-rosegold flex items-center">
+          <img src="/lovable-uploads/fc085184-3cde-46de-abfe-f2ccb7b45b04.png" alt="Jolly Logo" className="h-10 mr-2" />
+        </a>
         
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#about" className="font-montserrat text-sm hover:text-rosegold transition-colors">About</a>
-          <a href="#services" className="font-montserrat text-sm hover:text-rosegold transition-colors">Services</a>
-          <a href="#portfolio" className="font-montserrat text-sm hover:text-rosegold transition-colors">Portfolio</a>
-          <a href="#testimonials" className="font-montserrat text-sm hover:text-rosegold transition-colors">Testimonials</a>
-          <a href="#pricing" className="font-montserrat text-sm hover:text-rosegold transition-colors">Pricing</a>
-          <a href="#contact" className="font-montserrat text-sm hover:text-rosegold transition-colors">Contact</a>
+          <a href="#about" className="font-montserrat text-sm hover:text-rosegold transition-colors elegant-link">About</a>
+          <a href="#services" className="font-montserrat text-sm hover:text-rosegold transition-colors elegant-link">Services</a>
+          <a href="#portfolio" className="font-montserrat text-sm hover:text-rosegold transition-colors elegant-link">Portfolio</a>
+          <a href="#testimonials" className="font-montserrat text-sm hover:text-rosegold transition-colors elegant-link">Testimonials</a>
+          <a href="#pricing" className="font-montserrat text-sm hover:text-rosegold transition-colors elegant-link">Pricing</a>
+          <a href="#contact" className="font-montserrat text-sm hover:text-rosegold transition-colors elegant-link">Contact</a>
         </div>
         
         <Button variant="outline" className="hidden md:flex border-rosegold text-rosegold hover:bg-rosegold hover:text-white transition-all duration-300">
@@ -53,7 +55,7 @@ const Navbar = () => {
       
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white shadow-md animate-fade-in">
+        <div className="md:hidden bg-white/95 backdrop-blur-sm shadow-md animate-soft-fade">
           <div className="flex flex-col space-y-4 p-4">
             <a href="#about" className="font-montserrat text-sm hover:text-rosegold transition-colors py-2" onClick={() => setIsMobileMenuOpen(false)}>About</a>
             <a href="#services" className="font-montserrat text-sm hover:text-rosegold transition-colors py-2" onClick={() => setIsMobileMenuOpen(false)}>Services</a>

@@ -34,7 +34,7 @@ const HeroSection = () => {
           <div className="rounded-full w-[250px] h-[250px] md:w-[400px] md:h-[400px] bg-blush/40 absolute -top-10 -right-10 z-0"></div>
           <div className="relative z-10 rounded-tl-[100px] rounded-br-[100px] overflow-hidden shadow-2xl border-8 border-white">
             <img
-              src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9"
+              src="/lovable-uploads/92681c01-e02c-47b9-a682-4f586b31f37a.png"
               alt="Jolly - Professional Makeup Artist"
               className="w-full h-full object-cover"
             />
