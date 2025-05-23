@@ -32,33 +32,33 @@ const PortfolioSection = () => {
     },
     {
       id: 5,
-      image: "/lovable-uploads/0eb11030-7fb2-4334-95ea-dea5a2253cb0.png",
-      category: "Natural",
-      client: "Sonia"
+      image: "/lovable-uploads/3c2b97fe-87a2-4a10-b1dc-d11a029ba9e2.png",
+      category: "Bridal",
+      client: "Riya"
     },
     {
       id: 6,
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
-      category: "Party",
-      client: "Rhea"
+      image: "/lovable-uploads/25a53af2-cbd7-4ae5-bc6f-2ff17bd5f002.png",
+      category: "Natural",
+      client: "Kavya"
     },
     {
       id: 7,
-      image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901",
-      category: "HD Makeup",
-      client: "Jyoti"
+      image: "/lovable-uploads/ff0af6df-bdea-4494-a40a-f16fa2b6cb2f.png",
+      category: "Traditional",
+      client: "Sneha"
     },
     {
       id: 8,
-      image: "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1",
-      category: "Engagement",
-      client: "Neha"
+      image: "/lovable-uploads/5ed70506-f1f7-4ff4-ac9a-ca329c8001e2.png",
+      category: "Traditional",
+      client: "Pooja"
     },
     {
       id: 9,
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
-      category: "Editorial",
-      client: "Riya"
+      image: "/lovable-uploads/6ce46882-7647-4878-9866-839ed71c1160.png",
+      category: "Traditional",
+      client: "Ananya"
     },
     {
       id: 10,
@@ -69,7 +69,7 @@ const PortfolioSection = () => {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-beige/50">
+    <section id="portfolio" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">Makeup Look Showcase</h2>

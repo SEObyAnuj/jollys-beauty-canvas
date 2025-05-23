@@ -21,7 +21,7 @@ const Navbar = () => {
     }`}>
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         <a href="#" className="font-playfair text-2xl md:text-3xl font-bold text-rosegold flex items-center">
-          <img src="/lovable-uploads/fc085184-3cde-46de-abfe-f2ccb7b45b04.png" alt="Jolly Logo" className="h-10 mr-2" />
+          <img src="/lovable-uploads/a6c92b3d-5be3-4adb-8c42-263b79bef8ac.png" alt="Jolly Logo" className="h-12 mr-2" />
         </a>
         
         <div className="hidden md:flex items-center space-x-8">
