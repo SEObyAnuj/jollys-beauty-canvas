@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Star } from "lucide-react";
@@ -66,7 +65,7 @@ const TestimonialCard = ({ testimonial }) => {
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="testimonials" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">Client Testimonials</h2>

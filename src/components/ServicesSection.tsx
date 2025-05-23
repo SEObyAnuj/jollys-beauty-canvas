@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Camera, Star, Heart, Calendar, Image, Mail } from 'lucide-react';
 
@@ -49,7 +48,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section id="services" className="py-20">
+    <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-4">My Services</h2>
